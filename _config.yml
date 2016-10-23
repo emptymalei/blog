@@ -3,8 +3,8 @@
 title: Neuron Sketch
 description: "A blog about computational neuroscience"
 keywords: "computational neuroscience, NEST, network dynamics, recurrent network"
-#url: http://hanlu.io
-#baseurl: "/blog"
+url: http://hanlu.io
+baseurl: "/blog"
 # baseurl: null
 
 # navbar pages
