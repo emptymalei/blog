@@ -1,31 +1,29 @@
 ---
 layout: default
+title: Home
 ---
 
-<div class="home">
+{% include intro.html %}
 
-	<ul class="post-list">
-		{% for post in site.posts %}
-		<li>
-			<article>
-				<header class="post-header">
-					<div>
-						<span>Posted on </span><span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
-					</div>
+<section class="post-list">
+  <div class="container">
 
-					<h2>
-						<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-					</h2>
-				</header>
+    <h2>Writing..</h2>
 
-				<div class="entry-content">
-					{{ post.content }}
-				</div>
-			</article>
-		</li>
-		{% endfor %}
-	</ul>
+    {% for post in site.posts limit:3 %}
+      <article class="post-item">
+        <p><span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>  — <strong><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></strong> — <span> {{ post.content | strip_html | truncatewords: 40 }}</span> <a class="post-link readmore" href="{{ post.url | prepend: site.baseurl }}">Read more</a></p>
+      </article>
+    {% endfor %}
+  </div>
+  <div style="text-align: center;">
+    <span style="margin: 1em;"><a class="post-link readmore" href="{{ '/archive' | prepend: site.baseurl }}">All Posts</a></span>
+    <span style="margin: 1em;"><a class="post-link readmore" href="{{ '/categories' | prepend: site.baseurl }}">Posts by Categories</a></span>
+    <span style="margin: 1em;"><a class="post-link readmore" href="{{ '/tags' | prepend: site.baseurl }}">Posts by Tags</a></span>
+  </div>
+  
 
-	<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+  <div class="container">
+    {% include pagination.html %}
+  </div>
+</section>
