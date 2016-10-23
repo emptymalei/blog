@@ -1,25 +1,66 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing these this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: "Neuron Sketch"
-email: luhan040710@foxmail.com
+# SEO settings
+title: Neuron Sketch
 description: "A blog about computational neuroscience"
-baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://hanlu.io" # the base hostname & protocol for your site
-github_username:    ErbB4
+keywords: "computational neuroscience, NEST, network dynamics, recurrent network"
+url: http://hanlu.io
+baseurl: "/blog"
+# baseurl: null
 
+# navbar pages
+navbar:
+  - slug : /about
+    title: About
+  - slug : /archive
+    title: Archive
+
+
+
+# Author settings
+author:
+  name     : Han Lu # Also the name shown on the front page
+  job      : PhD Student # Also the profession shown on the front page
+  bio      : "[Here is a short intro]" # Also shown on the front page
+  thumb    : /assets/images/author.jpg # change it as you wish
+  email    : luhan040710@foxmail.com 
+  url      : http://hanlu.io
+  github   : http://github.com/ErbB4
+  #twitter  : http://twitter.com/nandomoreirame # change this
+  #facebook : http://facebook.com/fernando.dev
+  #linkedin : http://linkedin.com/in/nandomoreirame
+  resumelink: http://hanlu.io
+
+# social settings
+og_locale: "pt_BR"
+twitter_card: "summary_large_image"
+twitter_site: "@nandomoreirame"
+
+google_analytics: 
+repo: https://github.com/ErbB4/blog
+disqus_shortname: "neuron-sketch"
 
 # Build settings
-markdown: kramdown
+permalink   : /:title/
+markdown    : kramdown
+highlighter : rouge
+
+# paginate: 4
+# paginate_path: "/page/:num/"
+comments: true
+
+# source: source
+# destination: _site
+
+# Sass configuration
+sass:
+  sass_dir: assets/scss
+  style: compressed # expanded
+
+
+
+gems:
+  # - bourbon
+  # - jekyll-paginate
+
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
