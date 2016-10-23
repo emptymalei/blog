@@ -65,9 +65,11 @@ Here we generate all the categories.
   <article class="post-item">
         <p><span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>  — <strong><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></strong> 
         <span style="float: right;">
-        {% for tag in post.tags %}[
+      {% if post.tags %}
+        [{% for tag in post.tags %}
       <a class="codinfox-tag-mark" href="{{ site.url }}{{ site.baseurl }}/tags/#{{ tag | slugify }}">#{{ tag }}#</a>
-      ]{% endfor %}
+      {% endfor %}]
+      {% endif %}
       </span>
       </p>
   </article>
