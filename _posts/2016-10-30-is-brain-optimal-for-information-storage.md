@@ -90,9 +90,27 @@ $$
 
 where $S_j$ is the activity of input neuron and $w_{ij}$ is the corresponding weights.
 
+
+
 If $\sum_\mathrm{1,...,N}w_{ij}S_j(t)>T+K$, fire;
 
 if $\sum_\mathrm{1,...,N}w_{ij}S_j(t)<T-K$, silence.
+
+# What are the network connections when the number of learned patterns reaches maximum?
+
+### dominant weak synapses
+
+In the synaptic weight distribution, there are more weak synapses and less strong synapses, which also fits the experimental evidence.
+
+<figure markdown="1">
+![]({{ site.baseurl }}/assets/posts/is-brain-optimal-for-information-storage/weight-distribution.png)
+<figcaption></figcaption>
+</figure>
+
+
+
+
+
 
 # References
 [picture of memory engram is modified from this one](http://images.google.de/imgres?imgurl=https%3A%2F%2Fmopapersmoproblems.files.wordpress.com%2F2013%2F08%2Fthingaboutredplace.png&imgrefurl=https%3A%2F%2Fmopapersmoproblems.wordpress.com%2Fcategory%2Fspecial-blog-post%2F&h=899&w=1446&tbnid=Pvf3VgLxOqfw9M%3A&docid=8xz2O0-5qrXhKM&ei=pwkVWKraBYLxUoPhh8gJ&tbm=isch&iact=rc&uact=3&dur=331&page=1&start=18&ndsp=27&ved=0ahUKEwjqyaeU8IDQAhWCuBQKHYPwAZkQMwg-KBowGg&bih=654&biw=1517)
