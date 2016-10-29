@@ -63,7 +63,7 @@ So current study started from a randomly fully connection state, using **tempotr
 
 ### network setting
 
-simplified neuron model: binary (1 is active, 0 is inactive)
+simplified neuron model: binary ($S_j = 1$  is active, $S_j = 0$ is inactive)
 
 neuron type: excitatory neurons and inhibitory neurons.
 
@@ -78,7 +78,16 @@ In the current study, different firing patterns are generated and presented to t
 <figcaption>In this example, a network of four neurons has to learn the pattern '1010'. So the connections between neuron $1$ and neuron $3$ is higher, with larger diameter of the circle.</figcaption>
 </figure>
 
+### synaptic integration and robustness
 
+Neurons are connected with different strength, $w_{ij}$ is the synaptic weights from neuron $j$ to neuron $i$.
+
+The synaptic inputs to each neuron is summed and compared to a threshold $T$.
+
+$$
+\sum_\mathrm{1,...,N}w_{ij}S_j(t),
+$$
+where $S_j$ is the activity of input neuron and $w_{ij}$ is the corresponding weights.
 
 # References
 [picture of memory engram is modified from this one](http://images.google.de/imgres?imgurl=https%3A%2F%2Fmopapersmoproblems.files.wordpress.com%2F2013%2F08%2Fthingaboutredplace.png&imgrefurl=https%3A%2F%2Fmopapersmoproblems.wordpress.com%2Fcategory%2Fspecial-blog-post%2F&h=899&w=1446&tbnid=Pvf3VgLxOqfw9M%3A&docid=8xz2O0-5qrXhKM&ei=pwkVWKraBYLxUoPhh8gJ&tbm=isch&iact=rc&uact=3&dur=331&page=1&start=18&ndsp=27&ved=0ahUKEwjqyaeU8IDQAhWCuBQKHYPwAZkQMwg-KBowGg&bih=654&biw=1517)
