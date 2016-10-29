@@ -107,7 +107,14 @@ In the synaptic weight distribution, there are more weak synapses and less stron
 <figcaption></figcaption>
 </figure>
 
+### Reciprocal connections are stronger
 
+The stronger connections are reciprocal connections. The probability of reciprocal connections are above the square of connection probability.
+
+<figure markdown="1">
+![]({{ site.baseurl }}/assets/posts/is-brain-optimal-for-information-storage/reciprocal-connections.png)
+<figcaption></figcaption>
+</figure>
 
 
 
