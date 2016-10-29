@@ -30,7 +30,7 @@ A small group of neurons have higher firing rates compared to background activit
 This is also a widely-accepted mechanism in feedback network (recurrent network).
 
 <figure markdown="1">
-![]({{ site.baseurl }}/assets/posts/is-brain-optimal-for-information-storage/memoryengram.png)
+![]({{ site.baseurl }}/assets/posts/is-brain-optimal-for-information-storage/memory-engram.png)
 <figcaption>An illustration of memory engram. The memory of this context is stored by the blue colored neurons.</figcaption>
 </figure>
 ##
