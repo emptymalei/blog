@@ -33,8 +33,14 @@ This is also a widely-accepted mechanism in feedback network (recurrent network)
 ![]({{ site.baseurl }}/assets/posts/is-brain-optimal-for-information-storage/memory-engram.png)
 <figcaption>An illustration of memory engram. The memory of this context is stored by the blue colored neurons.</figcaption>
 </figure>
-## firing sequence in feedforward network
 
+## firing sequence in feedforward network
+It is also confirmed that the signal could be stored in the network in the form of firing sequences of a few neurons in a feedforward network.
+
+<figure markdown="1">
+![]({{ site.baseurl }}/assets/posts/is-brain-optimal-for-information-storage/feedforward.png)
+<figcaption>An illustration of memory engram. The memory of this context is stored by the blue colored neurons.</figcaption>
+</figure>
 
 ### references
-[picture of memory engram](http://images.google.de/imgres?imgurl=https%3A%2F%2Fmopapersmoproblems.files.wordpress.com%2F2013%2F08%2Fthingaboutredplace.png&imgrefurl=https%3A%2F%2Fmopapersmoproblems.wordpress.com%2Fcategory%2Fspecial-blog-post%2F&h=899&w=1446&tbnid=Pvf3VgLxOqfw9M%3A&docid=8xz2O0-5qrXhKM&ei=pwkVWKraBYLxUoPhh8gJ&tbm=isch&iact=rc&uact=3&dur=331&page=1&start=18&ndsp=27&ved=0ahUKEwjqyaeU8IDQAhWCuBQKHYPwAZkQMwg-KBowGg&bih=654&biw=1517)
+[picture of memory engram is modified from this one](http://images.google.de/imgres?imgurl=https%3A%2F%2Fmopapersmoproblems.files.wordpress.com%2F2013%2F08%2Fthingaboutredplace.png&imgrefurl=https%3A%2F%2Fmopapersmoproblems.wordpress.com%2Fcategory%2Fspecial-blog-post%2F&h=899&w=1446&tbnid=Pvf3VgLxOqfw9M%3A&docid=8xz2O0-5qrXhKM&ei=pwkVWKraBYLxUoPhh8gJ&tbm=isch&iact=rc&uact=3&dur=331&page=1&start=18&ndsp=27&ved=0ahUKEwjqyaeU8IDQAhWCuBQKHYPwAZkQMwg-KBowGg&bih=654&biw=1517)
