@@ -132,3 +132,9 @@ The same phenomenon of higher reciprocal connection probability was also observe
 
 # References
 [picture of memory engram is modified from this one](http://images.google.de/imgres?imgurl=https%3A%2F%2Fmopapersmoproblems.files.wordpress.com%2F2013%2F08%2Fthingaboutredplace.png&imgrefurl=https%3A%2F%2Fmopapersmoproblems.wordpress.com%2Fcategory%2Fspecial-blog-post%2F&h=899&w=1446&tbnid=Pvf3VgLxOqfw9M%3A&docid=8xz2O0-5qrXhKM&ei=pwkVWKraBYLxUoPhh8gJ&tbm=isch&iact=rc&uact=3&dur=331&page=1&start=18&ndsp=27&ved=0ahUKEwjqyaeU8IDQAhWCuBQKHYPwAZkQMwg-KBowGg&bih=654&biw=1517)
+
+[Goldman MS. Memory without feedback in a neural network. Neuron. 2009 Feb 26;61(4):621-34.](http://www.sciencedirect.com/science/article/pii/S0896627308010830)
+
+[Gütig R, Sompolinsky H. The tempotron: a neuron that learns spike timing–based decisions. Nature neuroscience. 2006 Mar 1;9(3):420-8.](http://www.nature.com/neuro/journal/v9/n3/full/nn1643.html)
+
+[Brunel N. Is cortical connectivity optimized for storing information [quest]. Nature neuroscience. 2016 Apr 11.](http://utmemoryclub.com/wp-content/uploads/2013/07/brunel2016.pdf)
