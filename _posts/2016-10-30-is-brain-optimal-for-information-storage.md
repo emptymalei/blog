@@ -107,7 +107,7 @@ In the synaptic weight distribution, there are more weak synapses and less stron
 <figcaption>In $c$, EPSP amplitude is an representation of synaptic weight.</figcaption>
 </figure>
 
-### Reciprocal connections are stronger
+### reciprocal connections are stronger
 
 The stronger connections are reciprocal connections. The probability of reciprocal connections are above the square of connection probability. (Simulation results absed on attractor state hypothesis.)
 
@@ -124,7 +124,11 @@ The same phenomenon of higher reciprocal connection probability was also observe
 <figcaption>All black lines: results of attractor state simulation. Orange line: results of sequence simulation.</figcaption>
 </figure>
 
+# Take-home-message and discussion
 
+**Conclusion**  The sparely connected network with stronger reciprocal connections make the brain efficient for information storage.
+
+**Discussion**
 
 # References
 [picture of memory engram is modified from this one](http://images.google.de/imgres?imgurl=https%3A%2F%2Fmopapersmoproblems.files.wordpress.com%2F2013%2F08%2Fthingaboutredplace.png&imgrefurl=https%3A%2F%2Fmopapersmoproblems.wordpress.com%2Fcategory%2Fspecial-blog-post%2F&h=899&w=1446&tbnid=Pvf3VgLxOqfw9M%3A&docid=8xz2O0-5qrXhKM&ei=pwkVWKraBYLxUoPhh8gJ&tbm=isch&iact=rc&uact=3&dur=331&page=1&start=18&ndsp=27&ved=0ahUKEwjqyaeU8IDQAhWCuBQKHYPwAZkQMwg-KBowGg&bih=654&biw=1517)
