@@ -39,7 +39,14 @@ It is also confirmed that the signal could be stored in the network in the form 
 
 <figure markdown="1">
 ![]({{ site.baseurl }}/assets/posts/is-brain-optimal-for-information-storage/feedforward.png)
-<figcaption>An illustration of memory engram. The memory of this context is stored by the blue colored neurons.</figcaption>
+<figcaption>In a feedforward network, the neuron never project back.</figcaption>
+</figure>
+
+The feedforward network could present (or save) information, because the neuron (or unit network) at different stage has different response time constant.
+
+<figure markdown="1">
+![]({{ site.baseurl }}/assets/posts/is-brain-optimal-for-information-storage/time-constant.png)
+<figcaption>When receiving an input, the neurons at different stage have different time delay (and response magnitude).</figcaption>
 </figure>
 
 ### references
