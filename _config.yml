@@ -15,6 +15,14 @@ navbar:
     title: Archive
 
 
+# collections
+
+collections:
+  research-notes: # the name should be the same as the folder name except the underscore. e.g., the folder name should be "_notes"
+    title: Notes
+    output: true
+    source_link: https://github.com/erbb4/notes
+
 
 # Author settings
 author:

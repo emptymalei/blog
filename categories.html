@@ -3,6 +3,10 @@ layout: page
 title: Categories
 ---
 
+{% for post in site.notes %}
+{{ post.category }}
+{% endfor %}
+
 {% comment%}
 Here we generate all the categories.
 {% endcomment%}
