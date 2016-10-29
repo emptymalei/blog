@@ -34,3 +34,6 @@ This is also a widely-accepted mechanism in feedback network (recurrent network)
 <figcaption>An illustration of memory engram. The memory of this context is stored by the blue colored neurons.</figcaption>
 </figure>
 ##
+
+
+### references
