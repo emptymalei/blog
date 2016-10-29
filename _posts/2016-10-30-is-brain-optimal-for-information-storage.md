@@ -23,7 +23,7 @@ Question concerned: is the sparse connection an optimal setting (for information
 
 # two hypotheses of information storage in the brain
 
-## attractor states
+## attractor state in recurrent network
 
 A small group of neurons have higher firing rates compared to background activity.
 
@@ -33,7 +33,7 @@ This is also a widely-accepted mechanism in feedback network (recurrent network)
 ![]({{ site.baseurl }}/assets/posts/is-brain-optimal-for-information-storage/memory-engram.png)
 <figcaption>An illustration of memory engram. The memory of this context is stored by the blue colored neurons.</figcaption>
 </figure>
-##
+## firing sequence in feedforward network
 
 
 ### references
