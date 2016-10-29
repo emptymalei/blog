@@ -61,6 +61,24 @@ So current study started from a randomly fully connection state, using **tempotr
 <figcaption>In this illustration, the neuron should learn to fire with black colored inputs, but keep silent when grey colored inputs arrive. So when the neuron fires (or silence) at the wrong time, the corresponding synapse is weakened (or strengthened).</figcaption>
 </figure>
 
+### network setting
+
+simplified neuron model: binary (1 is active, 0 is inactive)
+
+neuron type: excitatory neurons and inhibitory neurons.
+
+connections: Inhibitory neurons are fully connected and not touched during the learning process. Connections of excitatory neurons are changed accordingly.
+
+### learned pattern and synaptic weights
+
+In the current study, different firing patterns are generated and presented to the network, and the network has to learn (or store) the pattern with set of synaptic weights.
+
+<figure markdown="1">
+![]({{ site.baseurl }}/assets/posts/is-brain-optimal-for-information-storage/pattern.png)
+<figcaption>In this example, a network of four neurons has to learn the pattern '1010'. So the connections between neuron $1$ and neuron $3$ is higher, with larger diameter of the circle.</figcaption>
+</figure>
+
+
 
 # References
 [picture of memory engram is modified from this one](http://images.google.de/imgres?imgurl=https%3A%2F%2Fmopapersmoproblems.files.wordpress.com%2F2013%2F08%2Fthingaboutredplace.png&imgrefurl=https%3A%2F%2Fmopapersmoproblems.wordpress.com%2Fcategory%2Fspecial-blog-post%2F&h=899&w=1446&tbnid=Pvf3VgLxOqfw9M%3A&docid=8xz2O0-5qrXhKM&ei=pwkVWKraBYLxUoPhh8gJ&tbm=isch&iact=rc&uact=3&dur=331&page=1&start=18&ndsp=27&ved=0ahUKEwjqyaeU8IDQAhWCuBQKHYPwAZkQMwg-KBowGg&bih=654&biw=1517)
