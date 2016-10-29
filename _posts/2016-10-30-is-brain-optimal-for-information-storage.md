@@ -113,7 +113,7 @@ The stronger connections are reciprocal connections. The probability of reciproc
 
 <figure markdown="1">
 ![]({{ site.baseurl }}/assets/posts/is-brain-optimal-for-information-storage/reciprocal-connections.png)
-<figcaption></figcaption>
+<figcaption>In $D$, EPSP amplitude is an representation of synaptic weight.</figcaption>
 </figure>
 
 
