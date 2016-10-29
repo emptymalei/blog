@@ -85,7 +85,7 @@ Images are inserted in figure environment.
 
 
 <figure markdown="1">
-![](/assets/posts/welcome-to-neuron-sketch/a-test-images.jpg)
+![]({{ site.baseurl }}/assets/posts/welcome-to-neuron-sketch/a-test-images.jpg)
 <figcaption>Image caption is here</figcaption>
 </figure>
 
@@ -93,6 +93,6 @@ with `markdown="1"`, you are allowed to use markdown inside this tag.
 
 Images without captions:
 
-![](/assets/posts/welcome-to-neuron-sketch/a-test-images.jpg)
+![]({{ site.baseurl }}/assets/posts/welcome-to-neuron-sketch/a-test-images.jpg)
 
 Please note the images are placed in the path `/assets/posts/some-name/image-name`, the `some-name` is usually the name of the posts for easy file management.
