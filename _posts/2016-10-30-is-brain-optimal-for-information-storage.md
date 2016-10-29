@@ -90,7 +90,9 @@ $$
 
 where $S_j$ is the activity of input neuron and $w_{ij}$ is the corresponding weights.
 
-If $\sum_\mathrm{1,...,N}w_{ij}S_j(t)>T+K$, fire; if $\sum_\mathrm{1,...,N}w_{ij}S_j(t)<T-K$, silence.
+If $\sum_\mathrm{1,...,N}w_{ij}S_j(t)>T+K$, fire;
+
+if $\sum_\mathrm{1,...,N}w_{ij}S_j(t)<T-K$, silence.
 
 # References
 [picture of memory engram is modified from this one](http://images.google.de/imgres?imgurl=https%3A%2F%2Fmopapersmoproblems.files.wordpress.com%2F2013%2F08%2Fthingaboutredplace.png&imgrefurl=https%3A%2F%2Fmopapersmoproblems.wordpress.com%2Fcategory%2Fspecial-blog-post%2F&h=899&w=1446&tbnid=Pvf3VgLxOqfw9M%3A&docid=8xz2O0-5qrXhKM&ei=pwkVWKraBYLxUoPhh8gJ&tbm=isch&iact=rc&uact=3&dur=331&page=1&start=18&ndsp=27&ved=0ahUKEwjqyaeU8IDQAhWCuBQKHYPwAZkQMwg-KBowGg&bih=654&biw=1517)
