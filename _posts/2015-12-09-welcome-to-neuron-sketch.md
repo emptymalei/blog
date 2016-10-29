@@ -50,6 +50,32 @@ Checkout our `neuronstar.github.io/_spiking-neuron-models`
 
 Basically the typography follows [kramdown](http://kramdown.gettalong.org/) syntax. Here are some extras to Jekyll.
 
+The basics are
+
+1. **Emphasis**
+2. *Italic*
+
+This is also an example of ordered list.
+
+An unordered list is a list with `*`
+
+* **Emphasis**
+* *Italic*
+	* Nested
+
+
+And math
+
+\begin{equation}
+\alpha = \beta + \gamma
+\end{equation}
+
+
+### Footnotes
+
+Footnotes are particularly useful for writing.[^1]
+
+
 ### Table of Contents
 
 To generate table of contents, insert 
@@ -96,3 +122,7 @@ Images without captions:
 ![]({{ site.baseurl }}/assets/posts/welcome-to-neuron-sketch/a-test-images.jpg)
 
 Please note the images are placed in the path `/assets/posts/some-name/image-name`, the `some-name` is usually the name of the posts for easy file management.
+
+
+
+[^1]: This is a footnote.

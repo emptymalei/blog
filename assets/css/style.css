@@ -18,3 +18,82 @@
 #markdown-toc>li>ul>li {
  	list-style: disc;
 }
+h2 {
+    margin-top: 2em !important;
+    font-weight: bold;
+}
+h3 {
+    margin-top: 1.5em !important;
+    font-weight: normal;
+}
+ol {
+    list-style-type: decimal !important;
+    padding-left: 2em;
+    padding-bottom: 1em;
+}
+ul {
+    list-style-type: square;
+    padding-left: 2em;
+    padding-bottom: 1em;
+}
+ul>li>ul {
+    list-style-type: disc;
+}
+
+strong {
+    font-weight: bold;
+}
+em {
+    font-style: italic;
+}
+
+figure {
+    margin-top: 2em;
+    margin-bottom: 2em; 
+}
+figure > figcaption {
+    padding: 0.5em 1em 0.75em 1em;
+    color: #808080;
+    border-left: 5px solid #c7c7c7;
+    border-right: 5px solid #c7c7c7;
+    background: #e8e8e8;
+    margin: -1em 0em 1em 0em;
+    font-size: 90%;
+}
+.footnotes {
+    border-top: 2px solid #e0e0e0;
+    padding-top: 1em;
+    margin-top: 2em;
+}
+sub, sup {
+  /* Specified in % so that the sup/sup is the
+     right size relative to the surrounding text */
+  font-size: 75%;
+
+  /* Zero out the line-height so that it doesn't
+     interfere with the positioning that follows */
+  line-height: 0;
+
+  /* Where the magic happens: makes all browsers position
+     the sup/sup properly, relative to the surrounding text */
+  position: relative;
+
+  /* Note that if you're using Eric Meyer's reset.css, this
+     is already set and you can remove this rule */
+  vertical-align: baseline;
+}
+
+sup {
+  /* Move the superscripted text up */
+  top: -0.5em;
+}
+sup > a {
+    border-bottom: none !important;
+    border-top:  none !important;
+}
+
+sub {
+  /* Move the subscripted text down, but only
+     half as far down as the superscript moved up */
+  bottom: -0.25em;
+}
