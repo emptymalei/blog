@@ -104,7 +104,7 @@ In the synaptic weight distribution, there are more weak synapses and less stron
 
 <figure markdown="1">
 ![]({{ site.baseurl }}/assets/posts/is-brain-optimal-for-information-storage/weight-distribution.png)
-<figcaption></figcaption>
+<figcaption>In $c$, EPSP amplitude is an representation of synaptic weight.</figcaption>
 </figure>
 
 ### Reciprocal connections are stronger
@@ -113,7 +113,7 @@ The stronger connections are reciprocal connections. The probability of reciproc
 
 <figure markdown="1">
 ![]({{ site.baseurl }}/assets/posts/is-brain-optimal-for-information-storage/reciprocal-connections.png)
-<figcaption>In $D$, EPSP amplitude is an representation of synaptic weight.</figcaption>
+<figcaption>In $d$, EPSP amplitude is an representation of synaptic weight.</figcaption>
 </figure>
 
 ### reciprocal connections in sequence hypothesis
