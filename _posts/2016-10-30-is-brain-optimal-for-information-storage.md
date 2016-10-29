@@ -116,12 +116,12 @@ The stronger connections are reciprocal connections. The probability of reciproc
 <figcaption>In $D$, EPSP amplitude is an representation of synaptic weight.</figcaption>
 </figure>
 
-### higher reciprocal connection probability in sequence hypothesis
-The same phenomenon of higher reciprocal connection probability was also observed when simulating the sequence hypothesis of information storage.
+### reciprocal connections in sequence hypothesis
+The same phenomenon of higher reciprocal connection probability was also observed when simulating the sequence hypothesis of information storage. But the probability equals to the squared probability of connection probability.
 
 <figure markdown="1">
 ![]({{ site.baseurl }}/assets/posts/is-brain-optimal-for-information-storage/sequence-bi.png)
-<figcaption></figcaption>
+<figcaption>All black lines: results of attractor state simulation. Orange line: results of sequence simulation.</figcaption>
 </figure>
 
 
