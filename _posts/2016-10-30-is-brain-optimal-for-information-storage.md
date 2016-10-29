@@ -100,7 +100,7 @@ if $\sum_\mathrm{1,...,N}w_{ij}S_j(t)<T-K$, silence.
 
 ### dominant weak synapses
 
-In the synaptic weight distribution, there are more weak synapses and less strong synapses, which also fits the experimental evidence.
+In the synaptic weight distribution, there are more weak synapses and less strong synapses, which also fits the experimental evidence. (Simulation results absed on attractor state hypothesis.)
 
 <figure markdown="1">
 ![]({{ site.baseurl }}/assets/posts/is-brain-optimal-for-information-storage/weight-distribution.png)
@@ -109,13 +109,20 @@ In the synaptic weight distribution, there are more weak synapses and less stron
 
 ### Reciprocal connections are stronger
 
-The stronger connections are reciprocal connections. The probability of reciprocal connections are above the square of connection probability.
+The stronger connections are reciprocal connections. The probability of reciprocal connections are above the square of connection probability. (Simulation results absed on attractor state hypothesis.)
 
 <figure markdown="1">
 ![]({{ site.baseurl }}/assets/posts/is-brain-optimal-for-information-storage/reciprocal-connections.png)
 <figcaption>In $D$, EPSP amplitude is an representation of synaptic weight.</figcaption>
 </figure>
 
+### higher reciprocal connection probability in sequence hypothesis
+The same phenomenon of higher reciprocal connection probability was also observed when simulating the sequence hypothesis of information storage.
+
+<figure markdown="1">
+![]({{ site.baseurl }}/assets/posts/is-brain-optimal-for-information-storage/sequence-bi.png)
+<figcaption></figcaption>
+</figure>
 
 
 
