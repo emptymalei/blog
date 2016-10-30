@@ -80,7 +80,7 @@ In the current study, different firing patterns are randomly generated and prese
 
 ### synaptic integration and perceptron classification
 
-Neurons are connected with different strength, $w_{ij}$ is the synaptic weights from neuron $j$ to neuron $i$.
+Neurons are connected with different strength, $w_{ij}$ is the synaptic weight from neuron $j$ to neuron $i$.
 
 The synaptic inputs to each neuron is summed and compared to a threshold $T$.
 
@@ -88,7 +88,7 @@ $$
 \sum_\mathrm{1,...,N}w_{ij}S_j(t),
 $$
 
-where $S_j$ is the activity of input neuron and $w_{ij}$ is the corresponding weights.
+where $S_j$ is the activity of input neuron and $w_{ij}$ is the corresponding weight.
 
 
 
