@@ -132,6 +132,12 @@ The same phenomenon of higher reciprocal connection probability was also observe
 
 How to realize the function of memory in ANN?
 
+Use tempotron learning algorism?
+<figure markdown="1">
+![]({{ site.baseurl }}/assets/posts/is-brain-optimal-for-information-storage/tempotron.png)
+</figure>
+
+The function of "potential" (zero) synapses.
 
 
 # References
