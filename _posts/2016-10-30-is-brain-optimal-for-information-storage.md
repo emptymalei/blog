@@ -46,7 +46,7 @@ The feedforward network could present (or save) information, because the neuron 
 
 <figure markdown="1">
 ![]({{ site.baseurl }}/assets/posts/is-brain-optimal-for-information-storage/feed.png)
-<figcaption>When receiving an input, the neurons at different stage have different time delay (and response magnitude). To maintain the same response level, the synaptic weight should increase with stage increases. </figcaption>
+<figcaption>When receiving an input, the neurons at different stage have different time delay (and response amplitude). To maintain the same response level, the synaptic weight should increase with stage increases. </figcaption>
 </figure>
 
 # Motivation from models to connection style
