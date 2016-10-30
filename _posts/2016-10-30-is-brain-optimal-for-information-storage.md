@@ -39,7 +39,7 @@ It is also confirmed that the signal could be stored in the network in the form 
 
 <figure markdown="1">
 ![]({{ site.baseurl }}/assets/posts/is-brain-optimal-for-information-storage/feedforward.png)
-<figcaption>In a feedforward network, the neuron never project back.</figcaption>
+<figcaption>In a feedforward network, the neurons never project back.</figcaption>
 </figure>
 
 The feedforward network could present (or save) information, because the neuron (or unit network) at different stage has different response time constant.
