@@ -67,7 +67,7 @@ simplified neuron model: binary ($S_j = 1$  is active, $S_j = 0$ is inactive)
 
 neuron type: excitatory neurons and inhibitory neurons.
 
-connections: Inhibitory neurons are fully connected and not touched during the learning process.
+connections: Inhibitory neurons are fully connected and not touched during the learning process. Excitatory neurons are possibly fully connected.
 
 ### learned patterns and synaptic weights
 
