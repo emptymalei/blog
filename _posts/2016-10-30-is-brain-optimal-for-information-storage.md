@@ -54,11 +54,11 @@ The feedforward network could present (or save) information, because the neuron 
 Current numerical research usually starts from a specific connection pattern, It is unclear whether cortical connectivity obeys the rules postulated by these models.
 
 ### learning algorism
-So current study started from a randomly fully connection state, using **tempotron learning algorism** to modify synaptic weights, until the network *learned (stored)* the maximal amounts of pattern.
+So current study started from a possibly fully connection state, using **perceptron learning algorism** to classify total inputs (determine outputs). Patterns to be learned determined the synaptic weights space.
 
 <figure markdown="1">
-![]({{ site.baseurl }}/assets/posts/is-brain-optimal-for-information-storage/tempotron.png)
-<figcaption>In this illustration, the neuron should learn to fire with black colored inputs, but keep silent when grey colored inputs arrive. So when the neuron fires (or silence) at the wrong time, the corresponding synapse is weakened (or strengthened).</figcaption>
+![]({{ site.baseurl }}/assets/posts/is-brain-optimal-for-information-storage/perceptron.png)
+<figcaption>In this illustration, the threshold ($T$) plus a robustness parameter $K$ determined the constrains to the newtrok.</figcaption>
 </figure>
 
 ### network setting
@@ -67,18 +67,18 @@ simplified neuron model: binary ($S_j = 1$  is active, $S_j = 0$ is inactive)
 
 neuron type: excitatory neurons and inhibitory neurons.
 
-connections: Inhibitory neurons are fully connected and not touched during the learning process. Connections of excitatory neurons are changed accordingly.
+connections: Inhibitory neurons are fully connected and not touched during the learning process.
 
 ### learned patterns and synaptic weights
 
-In the current study, different firing patterns are generated and presented to the network, and the network has to learn (or store) the pattern with set of synaptic weights.
+In the current study, different firing patterns are randomly generated and presented to the network, and the network has to learn (or store) the pattern with sets of synaptic weights.
 
 <figure markdown="1">
 ![]({{ site.baseurl }}/assets/posts/is-brain-optimal-for-information-storage/pattern.png)
 <figcaption>In this example, a network of four neurons has to learn the pattern '1010'. So the connections between neuron $1$ and neuron $3$ is higher, with larger diameter of the circle.</figcaption>
 </figure>
 
-### synaptic integration and robustness
+### synaptic integration and perceptron classification
 
 Neurons are connected with different strength, $w_{ij}$ is the synaptic weights from neuron $j$ to neuron $i$.
 
