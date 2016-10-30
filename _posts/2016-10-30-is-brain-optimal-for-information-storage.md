@@ -17,7 +17,7 @@ tags:
 
 Intuition: brain should be **fully** connected, for its highly condensed property and interaction of collaterals.
 
-Experience evidence: brain is **sparsely** connected, with a connection probability of $10\%$ in neocortex.
+Empirical evidence: brain is **sparsely** connected, with a connection probability of $10\%$ in neocortex.
 
 Question concerned: is the sparse connection an optimal setting (for information storage)?
 
@@ -69,7 +69,7 @@ neuron type: excitatory neurons and inhibitory neurons.
 
 connections: Inhibitory neurons are fully connected and not touched during the learning process. Connections of excitatory neurons are changed accordingly.
 
-### learned pattern and synaptic weights
+### learned patterns and synaptic weights
 
 In the current study, different firing patterns are generated and presented to the network, and the network has to learn (or store) the pattern with set of synaptic weights.
 
