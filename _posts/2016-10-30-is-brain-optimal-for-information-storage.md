@@ -45,7 +45,7 @@ It is also confirmed that the signal could be stored in the network in the form 
 The feedforward network could present (or save) information, because the neuron (or unit network) at different stage has different response time constant.
 
 <figure markdown="1">
-![]({{ site.baseurl }}/assets/posts/is-brain-optimal-for-information-storage/time-constant.png)
+![]({{ site.baseurl }}/assets/posts/is-brain-optimal-for-information-storage/feed.png)
 <figcaption>When receiving an input, the neurons at different stage have different time delay (and response magnitude). To maintain the same response level, the synaptic weight should increase with stage increases. </figcaption>
 </figure>
 
