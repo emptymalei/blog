@@ -15,4 +15,4 @@ tags:
 
 # Topic of interest
 
-Cognitive control: [cognitive control refers to processes that allow information processing and behavior to vary adaptively from moment to moment depending on current goals](carterlab.ucdavis.edu/research/control.php)
+Cognitive control: [cognitive control refers to processes that allow information processing and behavior to vary adaptively from moment to moment depending on current goals](http://carterlab.ucdavis.edu/research/control.php)
