@@ -9,10 +9,10 @@
 {% for photo in sorted_photos %}
 
 
-<li data-src="{{ photo.path | prepend: "/" | prepend: gallery[1].path_prefix | prepend: "../photos" }}"
+<li data-src="{{ photo.path | prepend: "/" | prepend: gallery[1].path_prefix | prepend: "photos" }}"
       data-sub-html="<h4>{{ photo.title }}</h4><p>{{ photo.description }}</p>" data-pinterest-text="Pin it" data-tweet-text="share on twitter ">
-        <a href="{{ photo.path | prepend: "/" | prepend: gallery[1].path_prefix | prepend: "../photos" }}">
-          <img class="img-responsive" src="{{ photo.path | prepend: "/" | prepend: gallery[1].path_prefix | prepend: "../photos" }}">
+        <a href="{{ photo.path | prepend: "/" | prepend: gallery[1].path_prefix | prepend: "photos" }}">
+          <img class="img-responsive" src="{{ photo.path | prepend: "/" | prepend: gallery[1].path_prefix | prepend: "photos" }}">
           <div class="photo-gallery-poster">
             <img src="http://sachinchoolur.github.io/lightGallery/static/img/zoom.png">
           </div>
