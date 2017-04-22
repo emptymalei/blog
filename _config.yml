@@ -9,6 +9,8 @@ baseurl: "/blog"
 
 # navbar pages
 navbar:
+  - slug: /photos
+    title: Photos
   - slug : /about
     title: About
   - slug : /archive
@@ -22,15 +24,20 @@ collections:
     title: Notes
     output: true
     source_link: https://github.com/erbb4/notes
+  photos: # this is for the photo gallery
+    title: Photos
+    output: true
+
+
 
 
 # Author settings
 author:
   name     : Han Lu # Also the name shown on the front page
   job      : PhD Student # Also the profession shown on the front page
-  bio      : "[Here is a short intro]" # Also shown on the front page
+  bio      : "Neuroscience" # Also shown on the front page
   thumb    : /assets/images/author.jpg # change it as you wish
-  email    : luhan040710@foxmail.com 
+  email    : luhan040710@foxmail.com
   url      : http://hanlu.io
   github   : http://github.com/ErbB4
   #twitter  : http://twitter.com/nandomoreirame # change this
@@ -43,7 +50,7 @@ og_locale: "pt_BR"
 twitter_card: "summary_large_image"
 twitter_site: "@nandomoreirame"
 
-google_analytics: 
+google_analytics:
 repo: https://github.com/ErbB4/blog
 disqus_shortname: "neuron-sketch"
 

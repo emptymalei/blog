@@ -1,0 +1,13 @@
+name: Life Style
+about: These are photos of life
+path_prefix: "/life"
+photos:
+   - path: "caleb-jones-128138.jpg"
+     title: "Forest"
+     description: "Bla bla bla forest"
+   - path: "jakob-owens-224351.jpg"
+     title: "Land"
+     description: "Land bla bla bla"
+   - path: "photo-nic-co-uk-nic-224377.jpg"
+     title: "Woof"
+     description: "Woof Woof"

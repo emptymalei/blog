@@ -1,3 +1,7 @@
+.site-header {
+   overflow: hidden;
+   padding-bottom: 1em;
+}
 #markdown-toc {
     border-width: thin;
     border-color: #9C9C9C;
@@ -49,7 +53,7 @@ em {
 
 figure {
     margin-top: 2em;
-    margin-bottom: 2em; 
+    margin-bottom: 2em;
 }
 figure > figcaption {
     padding: 0.5em 1em 0.75em 1em;
