@@ -1,0 +1,23 @@
+  {% assign sorted_photos = gallery[1].photos %}
+
+  <h2>{{ gallery[1].name }}</h2>
+
+  <div id="gallery" class="gallery" itemscope itemtype="http://schema.org/ImageGallery">
+
+
+  {% for photo in sorted_photos %}
+
+
+      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+
+         <a href="{{ photo.path | prepend: "/" | prepend: gallery[1].path_prefix | prepend: "../photos" }}" data-caption="{{ photo.title }}<br><em class='text-muted'>{{ photo.description }}</em>" data-width="1200" data-height="1200" itemprop="contentUrl">
+             <!-- Thumbnail -->
+             <img src="{{ photo.path | prepend: "/" | prepend: gallery[1].path_prefix | prepend: "../photos" }}" itemprop="thumbnail" alt="{{ photo.title }}">
+         </a>
+ </figure>
+
+
+
+  {% endfor %}
+
+</div>

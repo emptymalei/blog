@@ -1,0 +1,49 @@
+<!-- Core CSS file -->
+<link rel="stylesheet" href="{{ "/assets/photoswipe/photoswipe.css" | prepend: site.baseurl }}">
+
+<!-- Skin CSS file (styling of UI - buttons, caption, etc.)
+     In the folder of skin CSS file there are also:
+     - .png and .svg icons sprite,
+     - preloader.gif (for browsers that do not support CSS animations) -->
+<link rel="stylesheet" href="{{ "/assets/photoswipe/default-skin/default-skin.css" | prepend: site.baseurl }}">
+
+
+
+<!-- A touch of fanciness 💄 -->
+<link href='https://fonts.googleapis.com/css?family=Bitter:400,700,400italic' rel='stylesheet' type='text/css'>
+<style>
+  .pswp__caption__center {text-align: center;}
+  figure {
+    display: inline-block;
+    width: 33.333%;
+    /*float: left;*/
+  }
+  figure a {
+     text-decoration: none;
+  }
+  img {width: 100%;}
+  .spacer {height: 5em;}
+</style>
+
+
+
+
+<style>
+.my-gallery {
+  width: 100%;
+  float: left;
+}
+.my-gallery img {
+  width: 100%;
+  height: auto;
+}
+.my-gallery figure {
+  display: block;
+  float: left;
+  margin: 0 5px 5px 0;
+  width: 150px;
+}
+.my-gallery figcaption {
+  display: none;
+}
+</style>
