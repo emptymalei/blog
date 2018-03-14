@@ -1,1 +1,0 @@
-It was an interesting experience; I organized a small conference with another two colleagues in my institute. Click here you can see more 
