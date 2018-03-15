@@ -8,7 +8,7 @@ layout: default
     <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}
     {% if page.category %}
      • <span style="font-style: regular;">{</span>{% for cate in page.category %}
-     <span style="padding-right: 0.2em;padding-left: 0.2em;"><a href="{{ site.url }}{{ site.baseurl }}/categories/#{{ cate | slugify }}">{{ cate }}</a></span>
+     <span style="padding-right: 0.2em;padding-left: 0.2em;"><a href="{{ site.url }}{{ site.baseurl }}/categories/#{{ cate | slugify }}">⸢{{ cate }}⸥</a></span>
      {% endfor %}
      }
     {% endif %}
@@ -18,7 +18,7 @@ layout: default
      {% endfor %}
      ]
     {% endif %}
-    
+
     </p>
   </header>
   <div class="post-content" itemprop="articleBody">
